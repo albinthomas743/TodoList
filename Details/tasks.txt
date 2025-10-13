@@ -1,0 +1,10 @@
+ Create To-Do List app using html,css javascript
+Goal :learn DOM manipulation with JS
+Features:
+input box to add new task
+A button to Add Task
+When task is added show it in a list below
+Each task should have a delete buttom
+Use css to make completed tasks green
+
+https://github.com/aryan1403/Playwright-Automation-UST/branches
