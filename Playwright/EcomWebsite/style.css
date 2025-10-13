@@ -22,6 +22,11 @@ header {
   padding: 1em;
   width: 200px;
 }
+.product-N {
+  border: 1px solid #ccc;
+  padding: 1em;
+  width: 200px;
+}
 button {
   background: #28a745;
   color: white;
