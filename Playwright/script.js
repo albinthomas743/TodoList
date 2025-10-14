@@ -1,4 +1,5 @@
-document.getElementById("add-task-btn").addEventListener("click", addTask);
+document.getEl
+ementById("add-task-btn").addEventListener("click", addTask);
 document.getElementById("task-input").addEventListener("keydown", function(event) {
     if (event.key === "Enter") {
         addTask();
