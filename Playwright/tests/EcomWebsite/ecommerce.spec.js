@@ -2,7 +2,7 @@ const { test, expect } = require('@playwright/test');
 
 test.describe('Simple E-commerce tests', () => {
   test.beforeEach(async ({ page }) => {
-    await page.goto('http://localhost:5500');  
+    await page.goto('http://localhost:8080');  
   });
 
   test('products are displayed', async ({ page }) => {
