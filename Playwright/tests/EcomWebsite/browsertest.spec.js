@@ -1,11 +1,9 @@
-import { test, expect, chromium, firefox, webkit } from '@playwright/test';
+const { test, expect } = require('@playwright/test');
 
-for (const browserType of [chromium, firefox, webkit]) {
-  test(`test in ${browserType.name()}`, async () => {
-    const browser = await browserType.launch();
-    const page = await browser.newPage();
-    await page.goto('https://google.com');
+test.describe('My Suite', () => {
+  test('does something', async ({ page }) => {
+    // test steps
+    await page.goto('https://example.com');
     await expect(page).toHaveTitle(/Example/);
-    await browser.close();
   });
-}
+});
